@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: url(../assets/pattern.png);
+    background-size: 600px;
+}
+
+.card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0,0,0, 0.4);
+}
+
+.card-economy h1 {
+    color: salmon;
+}
+
+.card-luxury h1 {
+    color: blue;
+} 
+
+.card-family h1 {
+    color: green;
+}
+
+.card h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.card p {
+    margin-bottom: 5px;
+    font-size: 21px;
+}
+
+.card a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 7px;
+    font-size: 18px;
+    
+
+}
+
+.card-economy a {
+    background-color: orange;
+
+}
+.card-economy a:hover {
+    background-color: rgb(201, 135, 11);
+
+}
+.card-economy a:active {
+    background-color: rgb(172, 113, 3);
+
+}
+
+.card-luxury a {
+    background-color: rgb(180, 9, 180);
+
+}
+
+.card-luxury a:hover {
+    background-color: rgb(110, 2, 110);
+
+}
+
+.card-luxury a:active {
+    background-color: rgb(75, 3, 75);
+
+}
+
+.card-family a {
+    background-color: salmon;
+
+}
+
+.card-family a:hover {
+    background-color: rgb(248, 89, 71);
+
+}
+
+.card-family a:active {
+    background-color: rgb(246, 66, 46);
+
+}
+
+.card-economy {
+    background: white url(../assets/economic-car.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.card-luxury {
+    background: white url(../assets/luxury-car.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.card-family {
+    background:  white url(../assets/family-car.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+i {
+    margin-right: 4px;
+}
