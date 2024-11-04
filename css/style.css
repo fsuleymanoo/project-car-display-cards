@@ -3,28 +3,30 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* background png and font family */
 body {
     font-family: 'Ubuntu', sans-serif;
     background: url(../assets/pattern.png);
     background-size: 600px;
 }
 
+/* box design */
 .card {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 5px 10px 15px rgba(0,0,0, 0.4);
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4);
 }
 
+/* header color */
 .card-economy h1 {
     color: salmon;
 }
 
 .card-luxury h1 {
     color: blue;
-} 
+}
 
 .card-family h1 {
     color: green;
@@ -40,6 +42,7 @@ body {
     font-size: 21px;
 }
 
+/* link/button design */
 .card a {
     display: inline-block;
     text-decoration: none;
@@ -47,18 +50,21 @@ body {
     color: white;
     border-radius: 7px;
     font-size: 18px;
-    
+
 
 }
 
+/* link box color reg, hover, active */
 .card-economy a {
     background-color: orange;
 
 }
+
 .card-economy a:hover {
     background-color: rgb(201, 135, 11);
 
 }
+
 .card-economy a:active {
     background-color: rgb(172, 113, 3);
 
@@ -94,6 +100,7 @@ body {
 
 }
 
+/* box-car images */
 .card-economy {
     background: white url(../assets/economic-car.png);
     background-size: 200px;
@@ -111,13 +118,14 @@ body {
 }
 
 .card-family {
-    background:  white url(../assets/family-car.png);
+    background: white url(../assets/family-car.png);
     background-size: 200px;
     background-repeat: no-repeat;
     background-position: right;
 
 }
 
+/* button arrow position */
 i {
     margin-right: 4px;
 }
